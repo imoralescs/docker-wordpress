@@ -1,0 +1,25 @@
+$direction: left;
+$reverse: right;
+$dir: ltr;
+
+@import
+"bourbon/bourbon",
+
+// vendor
+"vendor/normalize",
+"vendor/slick",
+
+// base
+"base/vars",
+"base/fonts",
+"base/icons",
+"base/util",
+"base/browser-tweaks",
+"base/global",
+"base/grid",
+"base/animation",
+"base/header",
+"base/footer",
+
+// modules
+"modules/example";

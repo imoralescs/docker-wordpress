@@ -1,0 +1,26 @@
+/* ==========================================================================
+		GLOBAL
+	 ========================================================================== */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html, body {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+}
+
+.wrapper {
+
+}
+
+.container {
+  max-width: 1250px;
+  padding: 15px;
+  margin-bottom: 60px;
+  margin: auto auto;
+  margin: 40px auto auto;
+  padding: 40px;
+  @include desktop {
+    width: 100%;
+  }
+}
